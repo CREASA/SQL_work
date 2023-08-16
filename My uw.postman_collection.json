@@ -1,0 +1,549 @@
+{
+	"info": {
+		"_postman_id": "b0c0a826-a379-40cc-96ba-c85f17a9a40a",
+		"name": "My uw",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21117789"
+	},
+	"item": [
+		{
+			"name": "http://localhost:4500/gettextbook/1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"inputs\":{\r\n    \"idTextbook\":1\r\n}\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4500/gettextbook/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4500",
+					"path": [
+						"gettextbook",
+						"1"
+					],
+					"query": [
+						{
+							"key": "/course/getCoachStats",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4500/gettextbook/2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"inputs\":{\r\n    \"idTextbook\":2\r\n}\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4500/gettextbook/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4500",
+					"path": [
+						"gettextbook",
+						"2"
+					],
+					"query": [
+						{
+							"key": "/course/getCoachStats",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4500/getstudent/2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"inputs\":\r\n{\r\n    \"idstudents\":2\r\n}\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4500/getstudent/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4500",
+					"path": [
+						"getstudent",
+						"2"
+					],
+					"query": [
+						{
+							"key": "/course/getCoachStats",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4500/getstudent/4",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"inputs\":\r\n{\r\n    \"idstudents\":4\r\n}\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4500/getstudent/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4500",
+					"path": [
+						"getstudent",
+						"4"
+					],
+					"query": [
+						{
+							"key": "/course/getCoachStats",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4500/getinstructor/3",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"inputs\":{\r\n    \"idInstructor\": 3\r\n}\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4500/getinstructor/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4500",
+					"path": [
+						"getinstructor",
+						"3"
+					],
+					"query": [
+						{
+							"key": "/course/getCoachStats",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4500/getinstructor/4",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"inputs\":{\r\n    \"idInstructor\": 4\r\n}\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4500/getinstructor/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4500",
+					"path": [
+						"getinstructor",
+						"4"
+					],
+					"query": [
+						{
+							"key": "/course/getCoachStats",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4500/getinstructor/5",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"inputs\":{\r\n    \"idInstructor\": 4\r\n}\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4500/getinstructor/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4500",
+					"path": [
+						"getinstructor",
+						"5"
+					],
+					"query": [
+						{
+							"key": "/course/getCoachStats",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4500/addOrUpdateStudent",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"inputs\":\r\n{\r\n    \"idstudents\":8,\r\n    \"localAddress\":\"{\\\"localAddress\\\":\\\"4801 40th Ave NE\\\"}\", \r\n    \"studentNumber\":\"2034587\",\r\n    \"classStanding\":\"Junior\", \r\n    \"studentName\":\"{\\\"studentName\\\":\\\"Xinyu Chang\\\"}\",\r\n    \"permanentAddress\":\"{\\\"permanentAddress\\\":\\\"4801 40th Ave NE\\\"}\",\r\n    \"major\":\"Informatics\"\r\n    \r\n}\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4500/addOrUpdatestudent",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4500",
+					"path": [
+						"addOrUpdatestudent"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4500/addOrUpdateinstructor",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"inputs\":{\r\n    \"idInstructor\": 6,\r\n    \"instructorFirstName\":\"Nalisa\", \r\n    \"instructorTitle\":\"Teaching Assistant\", \r\n    \"phoneNumbe\":2068324563, \r\n    \"filedsOfInterest\":\"INFO\", \r\n    \"introductionWebsite\":\"{\\\"introductionWebsite\\\":\\\"www.informatics.com\\\"}\", \r\n    \"instructorLastName\":\"Zhang\"\r\n}\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4500/addOrUpdateinstructor",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4500",
+					"path": [
+						"addOrUpdateinstructor"
+					],
+					"query": [
+						{
+							"key": "/course/getCoachStats",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4500/addOrUpdateinstructor",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"inputs\":{\r\n    \"idInstructor\": 7,\r\n    \"instructorFirstName\":\"Cherish\", \r\n    \"instructorTitle\":\"Teaching Assistant\", \r\n    \"phoneNumbe\":2068326745, \r\n    \"filedsOfInterest\":\"Amath\", \r\n    \"introductionWebsite\":\"{\\\"introductionWebsite\\\":\\\"www.Amath.com\\\"}\", \r\n    \"instructorLastName\":\"Li\"\r\n}\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4500/addOrUpdateinstructor",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4500",
+					"path": [
+						"addOrUpdateinstructor"
+					],
+					"query": [
+						{
+							"key": "/course/getCoachStats",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4500/addOrUpdatedepartment",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"inputs\": {\r\n        \"idDepartment\": 3,\r\n        \"classWebsite\": \"www.psychology.com\",\r\n        \"departName\": \"psychology\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4500/addOrUpdatedepartment",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4500",
+					"path": [
+						"addOrUpdatedepartment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4500/addOrUpdatedepartment",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"inputs\": {\r\n        \"idDepartment\": 4,\r\n        \"classWebsite\": \"www.amath.com\",\r\n        \"departName\": \"Applied math\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4500/addOrUpdatedepartment",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4500",
+					"path": [
+						"addOrUpdatedepartment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4500/addOrUpdatestudy_abroad",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"inputs\": {\r\n        \"idStudy_abroad\": 2,\r\n        \"region\": \"French\",\r\n        \"programName\": \"Exlploring culture in French\",\r\n        \"city\": \"Paris\",\r\n        \"country\":\"French\",\r\n        \"idDepartment\":4\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4500/addOrUpdatestudy_abroad",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4500",
+					"path": [
+						"addOrUpdatestudy_abroad"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4500/addOrUpdatebuilding",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"inputs\": {\r\n        \"idBuilding\": 2,\r\n        \"openHour\": \"15\",\r\n        \"buildingNumber\":\"33\",\r\n        \"contact\":\"2056745673\",\r\n        \"collegeFullName\":\"Pollar Hall\",\r\n        \"photo\":\"8897.jpg\",\r\n        \"facNum\":\"3334\",\r\n        \"site\":\"Tacoma campus\",\r\n        \"facCode\":\"657\",\r\n        \"buildingType\":\"building\",\r\n        \"buildingName\":\"Pollar Hall\",\r\n        \"buildingAddress\":\"{\\\"address\\\":\\\"4801 25 AVe NE\\\"}\"\r\n\r\n\r\n\r\n\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4500/addOrUpdatebuilding",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4500",
+					"path": [
+						"addOrUpdatebuilding"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4500/addOrUpdateStudent",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"inputs\":\r\n{\r\n    \"idstudents\":7,\r\n    \"localAddress\":\"{\\\"localAddress\\\":\\\"4801 27th Ave NE\\\"}\", \r\n    \"studentNumber\":\"2033567\",\r\n    \"classStanding\":\"Sophomore\", \r\n    \"studentName\":\"{\\\"studentName\\\":\\\"Liu Jessie\\\"}\",\r\n    \"permanentAddress\":\"{\\\"permanentAddress\\\":\\\"4801 27th Ave NE\\\"}\",\r\n    \"major\":\"pre-science\"\r\n    \r\n}\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4500/addOrUpdatestudent",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4500",
+					"path": [
+						"addOrUpdatestudent"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:4500/deleteinstructor",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"inputs\":{\r\n    \"idInstructor\": 1\r\n}\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4500/deleteinstructor",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4500",
+					"path": [
+						"deleteinstructor"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
